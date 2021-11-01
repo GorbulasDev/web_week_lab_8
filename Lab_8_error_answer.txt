@@ -1,0 +1,3 @@
+2. Property ... was accessed during render but is not defined on instance.
+
+This means that something was used inside the template that does not exist within the Vue data function. We need to make sure that we’re properly defining data before attempting to access it.
